@@ -87,7 +87,7 @@ namespace TaskManagementAPI.Controllers
                                 commandType: CommandType.StoredProcedure));
                 return result;
             }
-            catch (Exception ex)
+            catch 
             {
                 throw;
             }
